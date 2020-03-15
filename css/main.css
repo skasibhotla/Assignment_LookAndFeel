@@ -2,17 +2,74 @@
 Sample css code
 */
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body,
+/*body {
+  height: 70%;
+  background-image:url("/img/image.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+ 
+}*/
+/*
+head {
+    height: 100%;
+    background-image: url("/img/usf-logo-png-2.jpg");
+    background-repeat: no-repeat;
+    background-positio
+}*/
 html {
-  height: 100%;
+    margin-left: 15%;
+    margin-right:15%;
+    background-image: url("/img/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.menu {
+    background-image: url("img/black-menubar.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 940px;
+    height: 69px;
+    float: left;
+    clear: both;
+    
+}
+.item {
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #111;
+        }
 /*Set background image*/
 .container {
-  background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+    /*background-image: url("/img/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    display: block;
+    height: auto;
+    position: relative;
+    width: 100%;
+    height:100%;
 }
 
 /* Position text in the middle */
@@ -44,4 +101,34 @@ html {
 .middle ul li a:hover {
   color: red;
   text-decoration: none;
+}
+.button {
+    border: none;
+    color: blue;
+    padding: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.h1 {
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+}
+
+.p {
+    background-color: lightcyan;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
