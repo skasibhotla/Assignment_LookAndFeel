@@ -17,24 +17,35 @@ head {
     background-positio
 }*/
 body {
-    background-image: url("/img/rectangle.png");
+    /*position:relative;*/
+    height:100%;
+    /*background-image: url("../img/rectangle.png");
     background-repeat: no-repeat;
-    background-size: cover;    /*background-color: #DF9938;*/
+    background-size: cover;
+    background-position:center;*/
+    /*margin-left: 15%;
+    margin-right: 15%;*/ 
+    /*background-color: #DF9938;*/
 }
 
 html {
-    margin-left: 15%;
-    margin-right:15%;
-    /*background-image: url("/img/download.jpg");
+    background-image: url("../img/rectangle.png");
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
+    background-position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height:100%;
+    /*position:relative;*/
+    /*background-color: #DF9938;*/
 }
+
 
 .menu {
     background-image: url("img/black-menubar.png");
     background-repeat: no-repeat;
     background-size:cover;
-    width: 940px;
+    width: 90%;
     height: 69px;
     float: left;
     clear: both;
@@ -127,6 +138,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    position:relative;
 }
 
 td, th {

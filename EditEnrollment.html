@@ -9,17 +9,15 @@
             alert("Your data has been saved!");
             window.location.href = "EnrollmentTrends.html";
         }
-         function GoBack() {
+        function GoBack() {
             window.location.href = "EnrollmentTrends.html";
         }
     </script>
 </head>
 <body>
     <div class="container">
-        <div class="mainpic">
-            <h1>Enrollments Trend</h1>
-            <p>Number of graduate and undergraduate students enrolled between 2014 to 2018 by their Race/Ethnicity in University of South Florida.</p>
-        </div>
+        <h1>Enrollments Trend</h1>
+        <p>Number of graduate and undergraduate students enrolled between 2014 to 2018 by their Race/Ethnicity in University of South Florida.</p>
         <div>
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
@@ -28,47 +26,45 @@
                 <li><a href="AboutUs.html">About Us</a></li>
             </ul>
         </div>
+        <br />
+        <br />
+        <p><h1>Fall 2018</h1></p>
+        <hr />
+        <table>
+            <tr>
+                <th>Ethnicity</th>
+                <th>Enrollment Numbers</th>
+            </tr>
+            <tr>
+                <td>Asian</td>
+                <td><input type="text" value="100" /></td>
+            </tr>
+            <tr>
+                <td>American Indian</td>
+                <td><input type="text" value="100" /></td>
+
+            </tr>
+            <tr>
+                <td>Black/African American</td>
+                <td><input type="text" value="100" /></td>
+
+            </tr>
+            <tr>
+                <td>Hispanic</td>
+                <td><input type="text" value="100" /></td>
+            </tr>
+            <tr>
+                <td>Hawaiian/ Pacific Islander</td>
+                <td><input type="text" value="100" /></td>
+            </tr>
+            <tr>
+                <td>Asian</td>
+                <td><input type="text" value="100" /></td>
+            </tr>
+        </table><br /><br />
+        <div style="text-align:center;"><input type="button" value="Update" onclick="SaveData()" /><input type="button" value="Cancel" onclick="GoBack()" /></div>
 
     </div>
-    <br />
-    <br />
-    <h1>Fall 2018</h1>
-    <hr />
-    <table>
-        <tr>
-
-            <th>Ethnicity</th>
-            <th>Enrollment Numbers</th>
-
-        </tr>
-        <tr>
-            <td>Asian</td>
-            <td><input type="text" value="100"/></td>
-        </tr>
-        <tr>
-            <td>American Indian</td>
-            <td><input type="text" value="100"/></td>
-
-        </tr>
-        <tr>
-            <td>Black/African American</td>
-            <td><input type="text" value="100" /></td>
-
-        </tr>
-        <tr>
-            <td>Hispanic</td>
-            <td><input type="text" value="100"/></td>
-        </tr>
-        <tr>
-            <td>Hawaiian/ Pacific Islander</td>
-            <td><input type="text" value="100"/></td>
-        </tr>
-        <tr>
-            <td>Asian</td>
-            <td><input type="text" value="100"/></td>
-        </tr>
-    </table><br /><br />
-    <div style="text-align:center;"><input type="button" value="Update" onclick="SaveData()" /><input type="button" value="Cancel" onclick="GoBack()" /></div>
-
+   
 </body>
 </html>
